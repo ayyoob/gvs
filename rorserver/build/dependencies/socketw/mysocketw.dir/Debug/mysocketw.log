@@ -1,0 +1,74 @@
+﻿Build started 9/4/2013 2:35:37 PM.
+     1>Project "C:\src\gvs\rorserver\build\dependencies\socketw\mysocketw.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "mysocketw.dir\Debug\mysocketw.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/src/rorserver/dependencies/socketw/CMakeLists.txt
+         CMake does not need to re-run because C:\src\rorserver\build\dependencies\socketw\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D MYSOCKETW_EXPORTS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D mysocketw_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"mysocketw.dir\Debug\\" /Fd"C:/src/rorserver/bin/mysocketw.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\dependencies\socketw\sw_base.cxx ..\..\..\dependencies\socketw\sw_inet.cxx ..\..\..\dependencies\socketw\sw_unix.cxx  /Zm1000 
+         sw_base.cxx
+         sw_inet.cxx
+         sw_unix.cxx
+     1>c:\src\gvs\rorserver\dependencies\socketw\sw_base.h(80): warning C4251: 'SWBaseSocket::SWBaseError::error_string' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'SWBaseSocket::SWBaseError'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\src\gvs\rorserver\dependencies\socketw\sw_base.h(80): warning C4251: 'SWBaseSocket::SWBaseError::error_string' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'SWBaseSocket::SWBaseError'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\src\gvs\rorserver\dependencies\socketw\sw_base.h(181): warning C4251: 'SWBaseSocket::error_string' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'SWBaseSocket'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\src\gvs\rorserver\dependencies\socketw\sw_base.h(181): warning C4251: 'SWBaseSocket::error_string' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'SWBaseSocket'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>..\..\..\dependencies\socketw\sw_base.cxx(40): warning C4005: 'ENOTSOCK' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(120) : see previous definition of 'ENOTSOCK'
+     1>..\..\..\dependencies\socketw\sw_base.cxx(41): warning C4005: 'EOPNOTSUPP' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(122) : see previous definition of 'EOPNOTSUPP'
+     1>..\..\..\dependencies\socketw\sw_base.cxx(42): warning C4005: 'EADDRINUSE' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+     1>..\..\..\dependencies\socketw\sw_base.cxx(43): warning C4005: 'EWOULDBLOCK' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(132) : see previous definition of 'EWOULDBLOCK'
+     1>..\..\..\dependencies\socketw\sw_base.cxx(44): warning C4005: 'EMSGSIZE' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(107) : see previous definition of 'EMSGSIZE'
+     1>..\..\..\dependencies\socketw\sw_base.cxx(45): warning C4005: 'EINPROGRESS' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(104) : see previous definition of 'EINPROGRESS'
+     1>..\..\..\dependencies\socketw\sw_base.cxx(46): warning C4005: 'EALREADY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(95) : see previous definition of 'EALREADY'
+     1>..\..\..\dependencies\socketw\sw_base.cxx(47): warning C4005: 'ECONNREFUSED' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(99) : see previous definition of 'ECONNREFUSED'
+     1>..\..\..\dependencies\socketw\sw_base.cxx(48): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>..\..\..\dependencies\socketw\sw_base.cxx(49): warning C4005: 'ENOTCONN' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(118) : see previous definition of 'ENOTCONN'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"mysocketw.dir\Debug\mysocketw.dll.embed.manifest.res" mysocketw.dir\Debug\mysocketw_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\rorserver\bin\mysocketw.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Ws2_32.lib /MANIFEST /ManifestFile:"mysocketw.dir\Debug\mysocketw.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/src/rorserver/bin/mysocketw.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/rorserver/bin/Debug/mysocketw.lib" /MACHINE:X86 /DLL mysocketw.dir\Debug\mysocketw.dll.embed.manifest.res
+         mysocketw.dir\Debug\sw_base.obj
+         mysocketw.dir\Debug\sw_inet.obj
+         mysocketw.dir\Debug\sw_unix.obj  /machine:X86 /debug 
+     1>LINK : fatal error LNK1168: cannot open C:\src\rorserver\bin\mysocketw.dll for writing
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(275,5): error MSB6006: "link.exe" exited with code 1168.
+     1>Done Building Project "C:\src\gvs\rorserver\build\dependencies\socketw\mysocketw.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.45

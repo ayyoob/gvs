@@ -1,0 +1,18 @@
+Mon Sep 02 09:27:05 2013|t01| INFO| server started in automatic mode.
+Mon Sep 02 09:27:05 2013|t01| INFO| Starting server in INET mode
+Mon Sep 02 09:27:05 2013|t01| WARN| no IP address has been specified, attempting to detect.
+Mon Sep 02 09:27:06 2013|t01| INFO| ip address: 192.248.22.102
+Mon Sep 02 09:27:06 2013|t01| WARN| app. full load traffic: 15360kbit/s upload and 1024kbit/s download
+Mon Sep 02 09:27:06 2013|t01|ERROR| Server name not specified.
+Mon Sep 02 13:11:37 2013|t01| INFO| server started in automatic mode.
+Mon Sep 02 13:11:37 2013|t01| INFO| Starting server in INET mode
+Mon Sep 02 13:11:37 2013|t01| WARN| no IP address has been specified, attempting to detect.
+Mon Sep 02 13:11:38 2013|t01| INFO| ip address: 192.248.22.102
+Mon Sep 02 13:11:38 2013|t01| WARN| app. full load traffic: 15360kbit/s upload and 1024kbit/s download
+Mon Sep 02 13:11:38 2013|t01|ERROR| Server name not specified.
+Tue Sep 03 08:49:12 2013|t01| INFO| server started in automatic mode.
+Tue Sep 03 08:49:12 2013|t01| INFO| Starting server in INET mode
+Tue Sep 03 08:49:12 2013|t01| WARN| no IP address has been specified, attempting to detect.
+Tue Sep 03 08:49:12 2013|t01| INFO| ip address: 192.248.22.102
+Tue Sep 03 08:49:12 2013|t01| WARN| app. full load traffic: 15360kbit/s upload and 1024kbit/s download
+Tue Sep 03 08:49:12 2013|t01|ERROR| Server name not specified.

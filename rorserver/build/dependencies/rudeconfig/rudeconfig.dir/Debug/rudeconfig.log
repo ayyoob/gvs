@@ -1,0 +1,51 @@
+﻿Build started 9/4/2013 2:35:38 PM.
+     1>Project "C:\src\gvs\rorserver\build\dependencies\rudeconfig\rudeconfig.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "rudeconfig.dir\Debug\rudeconfig.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/src/rorserver/dependencies/rudeconfig/CMakeLists.txt
+         CMake does not need to re-run because C:\src\rorserver\build\dependencies\rudeconfig\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/src/rorserver/dependencies/rudeconfig/include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"rudeconfig.dir\Debug\\" /Fd"C:/src/rorserver/bin/Debug/rudeconfig.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\dependencies\rudeconfig\src\AbstractData.cpp ..\..\..\dependencies\rudeconfig\src\AbstractOrganiser.cpp ..\..\..\dependencies\rudeconfig\src\AbstractParser.cpp ..\..\..\dependencies\rudeconfig\src\AbstractWriter.cpp ..\..\..\dependencies\rudeconfig\src\Base64Encoder.cpp ..\..\..\dependencies\rudeconfig\src\Comment.cpp ..\..\..\dependencies\rudeconfig\src\config.cpp ..\..\..\dependencies\rudeconfig\src\ConfigImpl.cpp ..\..\..\dependencies\rudeconfig\src\DataLine.cpp ..\..\..\dependencies\rudeconfig\src\File.cpp ..\..\..\dependencies\rudeconfig\src\KeyValue.cpp ..\..\..\dependencies\rudeconfig\src\ParserJuly2004.cpp ..\..\..\dependencies\rudeconfig\src\RealOrganiser.cpp ..\..\..\dependencies\rudeconfig\src\Section.cpp ..\..\..\dependencies\rudeconfig\src\WhiteSpace.cpp ..\..\..\dependencies\rudeconfig\src\Writer.cpp  /Zm1000 
+         AbstractData.cpp
+         AbstractOrganiser.cpp
+         AbstractParser.cpp
+         AbstractWriter.cpp
+         Base64Encoder.cpp
+         Comment.cpp
+         config.cpp
+         ConfigImpl.cpp
+         DataLine.cpp
+         File.cpp
+         KeyValue.cpp
+         ParserJuly2004.cpp
+         RealOrganiser.cpp
+         Section.cpp
+         WhiteSpace.cpp
+         Writer.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\src\rorserver\bin\Debug\rudeconfig.lib" /NOLOGO rudeconfig.dir\Debug\AbstractData.obj
+         rudeconfig.dir\Debug\AbstractOrganiser.obj
+         rudeconfig.dir\Debug\AbstractParser.obj
+         rudeconfig.dir\Debug\AbstractWriter.obj
+         rudeconfig.dir\Debug\Base64Encoder.obj
+         rudeconfig.dir\Debug\Comment.obj
+         rudeconfig.dir\Debug\config.obj
+         rudeconfig.dir\Debug\ConfigImpl.obj
+         rudeconfig.dir\Debug\DataLine.obj
+         rudeconfig.dir\Debug\File.obj
+         rudeconfig.dir\Debug\KeyValue.obj
+         rudeconfig.dir\Debug\ParserJuly2004.obj
+         rudeconfig.dir\Debug\RealOrganiser.obj
+         rudeconfig.dir\Debug\Section.obj
+         rudeconfig.dir\Debug\WhiteSpace.obj
+         rudeconfig.dir\Debug\Writer.obj
+         rudeconfig.vcxproj -> C:\src\rorserver\bin\Debug\rudeconfig.lib
+       FinalizeBuildStatus:
+         Deleting file "rudeconfig.dir\Debug\rudeconfig.unsuccessfulbuild".
+         Touching "rudeconfig.dir\Debug\rudeconfig.lastbuildstate".
+     1>Done Building Project "C:\src\gvs\rorserver\build\dependencies\rudeconfig\rudeconfig.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.49

@@ -1,0 +1,5 @@
+C:/src/rorserver/build/dependencies/socketw/CMakeFiles/ALL_BUILD.dir
+C:/src/rorserver/build/CMakeFiles/ZERO_CHECK.dir
+C:/src/rorserver/build/dependencies/socketw/CMakeFiles/mysocketw.dir
+C:/src/rorserver/build/source/server/CMakeFiles/rorserver.dir
+C:/src/rorserver/build/dependencies/rudeconfig/CMakeFiles/rudeconfig.dir

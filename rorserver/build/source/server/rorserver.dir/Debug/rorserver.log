@@ -1,0 +1,63 @@
+﻿Build started 9/4/2013 2:35:40 PM.
+     1>Project "C:\src\gvs\rorserver\build\source\server\rorserver.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "rorserver.dir\Debug\rorserver.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/src/rorserver/source/server/CMakeLists.txt
+         CMake does not need to re-run because C:\src\rorserver\build\source\server\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/src/rorserver/dependencies/socketw /IC:/src/rorserver/dependencies /IC:/src/rorserver/source/protocol /IC:/src/rorserver/dependencies/win32_pthread /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D NOSTACKLOG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"rorserver.dir\Debug\\" /Fd"C:/src/rorserver/bin/rorserver.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\..\..\source\server\broadcaster.cpp ..\..\..\source\server\config.cpp ..\..\..\source\server\HttpMsg.cpp ..\..\..\source\server\listener.cpp ..\..\..\source\server\logger.cpp ..\..\..\source\server\messaging.cpp ..\..\..\source\server\mutexutils.cpp ..\..\..\source\server\notifier.cpp ..\..\..\source\server\receiver.cpp ..\..\..\source\server\rorserver.cpp ..\..\..\source\server\ScriptEngine.cpp ..\..\..\source\server\ScriptFileSafe.cpp ..\..\..\source\server\sequencer.cpp ..\..\..\source\server\sha1_util.cpp ..\..\..\source\server\userauth.cpp ..\..\..\source\server\UTFString.cpp ..\..\..\source\server\utils.cpp ..\..\..\source\server\webserver.cpp  /Zm1000 
+         broadcaster.cpp
+         config.cpp
+         HttpMsg.cpp
+         listener.cpp
+         logger.cpp
+         messaging.cpp
+         mutexutils.cpp
+         notifier.cpp
+         receiver.cpp
+         rorserver.cpp
+         ScriptEngine.cpp
+         ScriptFileSafe.cpp
+         sequencer.cpp
+         sha1_util.cpp
+         userauth.cpp
+         UTFString.cpp
+         utils.cpp
+         webserver.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/src/rorserver/dependencies/socketw /IC:/src/rorserver/dependencies /IC:/src/rorserver/source/protocol /IC:/src/rorserver/dependencies/win32_pthread /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D NOSTACKLOG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"rorserver.dir\Debug\\" /Fd"C:/src/rorserver/bin/rorserver.pdb" /Gd /TC /wd4251 /analyze- /errorReport:prompt ..\..\..\source\server\mongoose.c ..\..\..\source\server\sha1.c  /Zm1000 
+         mongoose.c
+         sha1.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D NOSTACKLOG /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /IC:/src/rorserver/dependencies/socketw /IC:/src/rorserver/dependencies /IC:/src/rorserver/source/protocol /IC:/src/rorserver/dependencies/win32_pthread /nologo /fo"rorserver.dir\Debug\icon.res" ..\..\..\source\server\icon.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"rorserver.dir\Debug\rorserver.exe.embed.manifest.res" rorserver.dir\Debug\rorserver_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\rorserver\bin\rorserver.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\..\dependencies\win32_pthread\pthreadVC2.lib ..\..\..\bin\Debug\mysocketw.lib ..\..\..\bin\Debug\rudeconfig.lib Ws2_32.lib /MANIFEST /ManifestFile:"rorserver.dir\Debug\rorserver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/src/rorserver/bin/rorserver.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/rorserver/bin/Debug/rorserver.lib" /MACHINE:X86 rorserver.dir\Debug\icon.res
+         rorserver.dir\Debug\rorserver.exe.embed.manifest.res
+         rorserver.dir\Debug\broadcaster.obj
+         rorserver.dir\Debug\config.obj
+         rorserver.dir\Debug\HttpMsg.obj
+         rorserver.dir\Debug\listener.obj
+         rorserver.dir\Debug\logger.obj
+         rorserver.dir\Debug\messaging.obj
+         rorserver.dir\Debug\mutexutils.obj
+         rorserver.dir\Debug\notifier.obj
+         rorserver.dir\Debug\receiver.obj
+         rorserver.dir\Debug\rorserver.obj
+         rorserver.dir\Debug\ScriptEngine.obj
+         rorserver.dir\Debug\ScriptFileSafe.obj
+         rorserver.dir\Debug\sequencer.obj
+         rorserver.dir\Debug\sha1_util.obj
+         rorserver.dir\Debug\userauth.obj
+         rorserver.dir\Debug\UTFString.obj
+         rorserver.dir\Debug\utils.obj
+         rorserver.dir\Debug\webserver.obj
+         rorserver.dir\Debug\mongoose.obj
+         rorserver.dir\Debug\sha1.obj  /machine:X86 /debug 
+     1>LINK : fatal error LNK1168: cannot open C:\src\rorserver\bin\rorserver.exe for writing
+     1>Done Building Project "C:\src\gvs\rorserver\build\source\server\rorserver.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.70
